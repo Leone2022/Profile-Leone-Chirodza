@@ -1,0 +1,109 @@
+*{
+margin: 0%;
+padding:0%
+
+}
+body{
+
+    background-image:url("Leone.JPG");height: 100px;
+
+}
+/*Navigation Bar*/
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(114, 91, 102);
+box-sizing: border-box;
+position: sticky;
+top: 0%;
+}
+
+.navbar ul{
+display: flex;
+list-style: none;
+margin: 20px 0px;
+
+}
+.navbar ul li{
+font-size: 1.1rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold
+}
+
+
+
+.navbar ul li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 10px 35px;
+transition: all, 1s ease;
+}
+
+.navbar ul li a:hover{
+
+    background-color: rgb(197, 197, 197);
+    color:black
+    Box 
+}
+/*Home Section*/
+
+#home{
+display: flex;
+flex-direction: column;
+height:100px;
+justify-content: center;
+padding: 180px;
+font-size: 30px;
+font-family:'Times New Roman', Times, serif;
+color: rgb(0, 0, 0);
+
+}
+#home::before{
+content: "";
+position: absolute;
+top:0;
+right: 0;
+background-image: url("Leone.JPG"); 
+background-size: 1950px;
+height: 800px;
+width: 3500px;
+z-index:-100;
+opacity: .9;
+}
+.main{
+
+    display: flex;
+    flex-direction: row;
+    /*border:3px  rgb(165, 119, 165);*/
+    width: 530px;
+    align-items: center;
+    position: absolute;
+
+}
+.headings{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+}
+.btn{
+
+padding: 10px 35px;
+background-color: transparent;
+list-style: none;
+color: blue;
+transition: 3s ease;
+
+}
+.btn :hover{
+
+    cursor: pointer;
+    background-color: antiquewhite;
+    color:black
+    font-weight:antiquewhite
+
+}

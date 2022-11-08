@@ -1,8 +1,5 @@
-*{
-margin: 0%;
-padding:0%
 
-}
+
 body{
 
     background-image:url("Leone.JPG");
@@ -17,19 +14,21 @@ align-items: center;
 background-color: rgb(114, 91, 102);
 box-sizing: border-box;
 position: sticky;
-top: 0%;
+text-align: center;
 }
 
 .navbar ul{
 display: flex;
 list-style: none;
-margin: 20px 0px;
+margin: 10px 0px;
 
 }
 .navbar ul li{
 font-size: 1.1rem;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: bold
+margin-right: 20px;
+
 }
 
 
@@ -37,8 +36,9 @@ font-weight: bold
 .navbar ul li a{
 text-decoration: none;
 color: rgb(255, 255, 255);
-padding: 10px 35px;
+padding: 5px 100px;
 transition: all, 1s ease;
+margin-right: 20px;
 }
 
 .navbar ul li a:hover{
@@ -78,7 +78,7 @@ opacity: .9;
     flex-direction: row;
     /*border:3px  rgb(165, 119, 165);*/
     width: 530px;
-    align-items: center;
+    align-items: left;
     position: absolute;
 
 }
@@ -96,7 +96,7 @@ opacity: .9;
 padding: 10px 35px;
 background-color: transparent;
 list-style: none;
-color: blue;
+color: rgb(197, 141, 202);
 transition: 3s ease;
 
 }
@@ -200,5 +200,10 @@ background-position: left bottom;
 color: rgb(143, 143, 143);
 box-shadow: 0 0; rg(208, 148, 243);
 
+}
+.dropdown-menu{
+
+    background-color: rgb(209, 181, 205);
+    color: rgb(209, 181, 205);
 }
 
